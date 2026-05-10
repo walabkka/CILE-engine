@@ -8,7 +8,7 @@ CILE is a deterministic clinical decision support (CDS) tool for real-time safet
 * Benefit: Provides clinicians and technicians with a consolidated safety profile including population-specific intercepts, dynamic renal adjustments, and pharmacogenomic (PGx) markers—outputting both physical PDF Consultation Reports and machine-readable HL7 FHIR payloads.
 * Competition: Unlike static PDF references or broad consumer-facing databases, CILE provides a real-time, logic-driven fallback system that prioritizes high-alert clinical intercepts over generic metadata.  
 
-*Note: This system has been evaluated using the STARE-HI (Statement on Reporting of Evaluation Studies in Health Informatics) framework. Detailed evaluation of the system architecture and clinical problem context can be found in `evaluation_log.md`.*
+#### *Note: This system has been evaluated using the STARE-HI (Statement on Reporting of Evaluation Studies in Health Informatics) framework. Detailed evaluation of the system architecture and clinical problem context can be found in `evaluation_log.md`.*The clinical logic and architecture were self-directed. AI was utilized as a "pair-programmer" to navigate API structures and refine Python syntax, allowing the primary focus to remain on healthcare informatics and data behavior. Prompt engineering skills are required!*
 ----------------------------------------
 ## Clinical Logic & Architecture
 CILE follows a deterministic architecture. It converts raw user input to a normalized RxNorm concept ID before querying the OpenFDA discovery API. This ensures that safety intercepts are triggered by the chemical moiety rather than inconsistent brand naming.
