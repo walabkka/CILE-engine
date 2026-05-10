@@ -1,0 +1,27 @@
+Specialized License
+
+Copyright (c) 2026 Waleed Al Abkka
+
+Permission is hereby granted for educational and evaluation purposes only.
+Redistribution, commercial use, or deployment of this software within a clinical
+or production environment is strictly prohibited without explicit written permission
+from the author. This software is a specialized clinical informatics tool. To maintain
+the integrity of the clinical logic and ensure proper implementation, users wishing
+to integrate or build upon the Clinical Informatics Logic Engine (CILE) are required
+to reach out for professional collaboration on LinkedIn: <<linkedin.com/in/walabkka>>
+or reach out via email <<walabkka@duck.com>>.
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+CLINICAL DISCLAIMER: THIS SOFTWARE IS FOR INFORMATICS EVALUATION AND EDUCATIONAL PURPOSES ONLY. 
+IT IS NOT A MEDICAL DEVICE AND DOES NOT PROVIDE MEDICAL ADVICE. CLINICAL DECISIONS SHOULD BE MADE 
+BY QUALIFIED HEALTHCARE PROFESSIONALS BASED ON PRIMARY CLINICAL LITERATURE AND PATIENT-SPECIFIC FACTORS.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
