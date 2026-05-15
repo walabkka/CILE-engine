@@ -1,0 +1,55 @@
+{
+    "report_metadata": {
+        "timestamp": "2026-05-15T18:41:14.190686",
+        "patient_age": 58,
+        "gender": "F",
+        "weight_kg": 68.0,
+        "serum_creatinine_mgdl": 1.1,
+        "hba1c_percent": "HbA1c was not given",
+        "estimated_crcl_mlmin": 59.84
+    },
+    "renal_alerts": [],
+    "regimen_profiles": [
+        {
+            "generic": "acetaminophen",
+            "classification": [
+                "HEPATIC"
+            ],
+            "pgx_markers": [
+                "RECEPTOR",
+                "CYP2D6"
+            ],
+            "predictive_alerts": [
+                "[CLINICAL INTERCEPT] Max dose 4g/day (lower in hepatic impairment). Leading cause of acute liver failure in excessive doses.",
+                "[FDA ALERT] WARNING Hepatotoxicity Acetaminophen has been associated with cases of acute liver failure, at times resulting in liver transplant and death."
+            ],
+            "clinical_highlights": "WARNING Hepatotoxicity Acetaminophen has been associated with cases of acute liver failure, at times resulting in liver transplant and death.",
+            "full_safety_data": "WARNING Hepatotoxicity Acetaminophen has been associated with cases of acute liver failure, at times resulting in liver transplant and death. Most of the cases of liver injury are associated with the use of acetaminophen at doses that exceed 4000 milligrams per day, and often involve more than one acetaminophen-containing product.",
+            "source": "boxed_warning",
+            "roa": [
+                "IV",
+                "Oral"
+            ]
+        },
+        {
+            "generic": "caffeine",
+            "classification": [
+                "UNCLASSIFIED"
+            ],
+            "pgx_markers": [
+                "None identified"
+            ],
+            "predictive_alerts": [
+                "[FDA ALERT] Hepatotoxicity Acetaminophen has been associated with cases of acute liver failure, at times resulting in liver transplant and death."
+            ],
+            "clinical_highlights": "Hepatotoxicity Acetaminophen has been associated with cases of acute liver failure, at times resulting in liver transplant and death.",
+            "full_safety_data": "Hepatotoxicity Acetaminophen has been associated with cases of acute liver failure, at times resulting in liver transplant and death. Most of the cases of liver injury are associated with the use of acetaminophen at doses that exceed 4000 milligrams per day, and often involve more than one acetaminophen-containing product.",
+            "source": "boxed_warning",
+            "roa": [
+                "IV",
+                "Oral"
+            ]
+        }
+    ],
+    "clinical_interactions": []
+}

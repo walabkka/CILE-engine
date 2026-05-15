@@ -1,0 +1,95 @@
+{
+    "report_metadata": {
+        "timestamp": "2026-05-15T18:18:20.011530",
+        "patient_age": 72,
+        "gender": "M",
+        "weight_kg": 80.0,
+        "serum_creatinine_mgdl": 1.8,
+        "hba1c_percent": 6.5,
+        "estimated_crcl_mlmin": 41.98
+    },
+    "renal_alerts": [],
+    "regimen_profiles": [
+        {
+            "generic": "ibuprofen",
+            "classification": [
+                "BEERS",
+                "RENAL"
+            ],
+            "pgx_markers": [
+                "None identified"
+            ],
+            "predictive_alerts": [
+                "[CLINICAL INTERCEPT] Risk of peptic ulcer disease and renal impairment; avoid chronic use in patients with eGFR <60."
+            ],
+            "clinical_highlights": "No critical cautions detected in this section.",
+            "full_safety_data": "Nursing Mothers It is not known whether this drug is excreted in human milk. Because many drugs are excreted in human-milk and because of the potential for serious adverse reactions in nursing infants from ibuprofen tablets, a decision should be made whether to discontinue nursing or discontinue the drug, taking into account the importance of the drug to the mother.",
+            "source": "geriatric_use",
+            "roa": [
+                "Oral"
+            ]
+        },
+        {
+            "generic": "furosemide",
+            "classification": [
+                "RENAL",
+                "OTOTOXIC"
+            ],
+            "pgx_markers": [
+                "RECEPTOR"
+            ],
+            "predictive_alerts": [
+                "[CLINICAL INTERCEPT] Potent loop diuretic. Risk of profound diuresis, electrolyte depletion, and ototoxicity (especially with rapid IV push).",
+                "[FDA ALERT] The renal clearance of furosemide after intravenous administration in older healthy male subjects  is statistically significantly smaller than in younger healthy male subjects",
+                "[FDA ALERT] In general, dose selection for the elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal or cardiac function, and of concomitant disease or other drug therapy",
+                "[FDA ALERT] This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function."
+            ],
+            "clinical_highlights": "The renal clearance of furosemide after intravenous administration in older healthy male subjects  is statistically significantly smaller than in younger healthy male subjects . In general, dose selection for the elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal or cardiac function, and of concomitant disease or other drug therapy. This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function.",
+            "full_safety_data": "Geriatric Population Furosemide binding to albumin may be reduced in elderly patients. Furosemide is predominantly excreted unchanged in the urine. The renal clearance of furosemide after intravenous administration in older healthy male subjects (60 to 70 years of age) is statistically significantly smaller than in younger healthy male subjects (20 to 35 years of age). The initial diuretic effect of furosemide in older subjects is decreased relative to younger subjects (see PRECAUTIONS: Geriatric Use ). Geriatric Use Controlled clinical studies of furosemide did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for the elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal or cardiac function, and of concomitant disease or other drug therapy. This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection and it may be useful to monitor renal function (see PRECAUTIONS: General and DOSAGE AND ADMINISTRATION ). Geriatric Patients: In general, dose selection for the elderly patient should be cautious, usually starting at the low end of the dosing range (see PRECAUTIONS: Geriatric Use ). Geriatric Patients: In general, dose selection and dose adjustment for the elderly patient should be cautious, usually starting at the low end of the dosing range (see PRECAUTIONS: Geriatric Use ).",
+            "source": "geriatric_use",
+            "roa": [
+                "IV",
+                "Oral"
+            ]
+        },
+        {
+            "generic": "lisinopril",
+            "classification": [
+                "UNCLASSIFIED"
+            ],
+            "pgx_markers": [
+                "RECEPTOR"
+            ],
+            "predictive_alerts": [
+                "[FDA ALERT] In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy",
+                "[FDA ALERT] This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function",
+                "[FDA ALERT] Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection."
+            ],
+            "clinical_highlights": "In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy. This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection.",
+            "full_safety_data": "Geriatric Use Clinical studies of lisinopril and hydrochlorothiazide tablets did not include sufficient numbers of subjects aged 65 and over to determine whether they respond differently from younger subjects. Other reported clinical experience has not identified differences in responses between the elderly and younger patients. In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy. In a multiple-dose pharmacokinetic study in elderly versus young hypertensive patients using the lisinopril/hydrochlorothiazide combination, area under the plasma concentration time curve (AUC) increased approximately 120% for lisinopril and approximately 80% for hydrochlorothiazide in older patients. This drug is known to be substantially excreted by the kidney, and the risk of toxic reactions to this drug may be greater in patients with impaired renal function. Because elderly patients are more likely to have decreased renal function, care should be taken in dose selection. Evaluation of the hypertensive patient should always include assessment of renal function. (See DOSAGE AND ADMINISTRATION.)",
+            "source": "geriatric_use",
+            "roa": [
+                "IV",
+                "Oral",
+                "SubQ"
+            ]
+        }
+    ],
+    "clinical_interactions": [
+        {
+            "drugs": "FUROSEMIDE & IBUPROFEN",
+            "severity": "CRITICAL",
+            "description": "[RENAL] NSAIDs blunt the diuretic and antihypertensive efficacy of loop diuretics. Increased risk of renal impairment."
+        },
+        {
+            "drugs": "LISINOPRIL & IBUPROFEN",
+            "severity": "CRITICAL",
+            "description": "[CRITICAL] Renal hemodynamics compromised. ACEi prevents efferent arteriole constriction while NSAID prevents afferent dilation. High risk of Acute Kidney Injury (AKI)."
+        },
+        {
+            "drugs": "LISINOPRIL & FUROSEMIDE",
+            "severity": "CRITICAL",
+            "description": "[MONITORING] Potential for profound hypotension and renal impairment if patient is volume depleted. Monitor SrCr and BP."
+        }
+    ]
+}

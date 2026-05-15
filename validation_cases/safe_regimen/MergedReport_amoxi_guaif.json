@@ -1,0 +1,47 @@
+{
+    "report_metadata": {
+        "timestamp": "2026-05-15T18:42:43.902184",
+        "patient_age": 10,
+        "gender": "M",
+        "weight_kg": 30.0,
+        "serum_creatinine_mgdl": "SrCr was not given",
+        "hba1c_percent": "HbA1c was not given",
+        "estimated_crcl_mlmin": "CrCl could not be calculated"
+    },
+    "renal_alerts": [],
+    "regimen_profiles": [
+        {
+            "generic": "amoxicillin",
+            "classification": [
+                "UNCLASSIFIED"
+            ],
+            "pgx_markers": [
+                "None identified"
+            ],
+            "predictive_alerts": [],
+            "clinical_highlights": "No critical cautions detected in this section.",
+            "full_safety_data": "No group-specific safety warnings identified.",
+            "source": "None",
+            "roa": [
+                "Oral"
+            ]
+        },
+        {
+            "generic": "guaifenesin",
+            "classification": [
+                "UNCLASSIFIED"
+            ],
+            "pgx_markers": [
+                "None identified"
+            ],
+            "predictive_alerts": [],
+            "clinical_highlights": "No critical cautions detected in this section.",
+            "full_safety_data": "WARNING .",
+            "source": "warnings",
+            "roa": [
+                "Oral"
+            ]
+        }
+    ],
+    "clinical_interactions": []
+}

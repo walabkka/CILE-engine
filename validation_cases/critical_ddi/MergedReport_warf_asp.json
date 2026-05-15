@@ -1,0 +1,62 @@
+{
+    "report_metadata": {
+        "timestamp": "2026-05-15T18:22:54.760778",
+        "patient_age": 45,
+        "gender": "F",
+        "weight_kg": 70.0,
+        "serum_creatinine_mgdl": 1.0,
+        "hba1c_percent": "HbA1c was not given",
+        "estimated_crcl_mlmin": 78.51
+    },
+    "renal_alerts": [],
+    "regimen_profiles": [
+        {
+            "generic": "warfarin",
+            "classification": [
+                "MONITORING",
+                "TERATOGENIC"
+            ],
+            "pgx_markers": [
+                "VKORC1",
+                "CYP2C9"
+            ],
+            "predictive_alerts": [
+                "[CLINICAL INTERCEPT] Narrow therapeutic index; requires consistent INR monitoring; high bleeding risk. Fetal Warfarin Syndrome risk in pregnancy.",
+                "[FDA ALERT] WARNING: BLEEDING RISK Warfarin sodium can cause major or fatal bleeding  ."
+            ],
+            "clinical_highlights": "WARNING: BLEEDING RISK Warfarin sodium can cause major or fatal bleeding  .",
+            "full_safety_data": "WARNING: BLEEDING RISK Warfarin sodium can cause major or fatal bleeding [see Warnings and Precautions ( 5.1 )] . Perform regular monitoring of INR in all treated patients [see Dosage and Administration ( 2.1 )] . Drugs, dietary changes, and other factors affect INR levels achieved with warfarin sodium therapy [see Drug Interactions ( 7 )] . Instruct patients about prevention measures to minimize risk of bleeding and to report signs and symptoms of bleeding [see Patient Counseling Information ( 17 )] . WARNING: BLEEDING RISK See full prescribing information for complete boxed warning. Warfarin sodium can cause major or fatal bleeding. ( 5.1 ) Perform regular monitoring of INR in all treated patients. ( 2.1 ) Drugs, dietary changes, and other factors affect INR levels achieved with warfarin sodium therapy. ( 7 ) Instruct patients about prevention measures to minimize risk of bleeding and to report signs and symptoms of bleeding. ( 17 )",
+            "source": "boxed_warning",
+            "roa": [
+                "IV",
+                "Oral",
+                "SubQ"
+            ]
+        },
+        {
+            "generic": "aspirin",
+            "classification": [
+                "UNCLASSIFIED"
+            ],
+            "pgx_markers": [
+                "None identified"
+            ],
+            "predictive_alerts": [],
+            "clinical_highlights": "No critical cautions detected in this section.",
+            "full_safety_data": "No group-specific safety warnings identified.",
+            "source": "None",
+            "roa": [
+                "IV",
+                "Oral"
+            ],
+            "intervention": "s"
+        }
+    ],
+    "clinical_interactions": [
+        {
+            "drugs": "WARFARIN & ASPIRIN",
+            "severity": "CRITICAL",
+            "description": "[CRITICAL] PD Interaction: Potentiation of bleeding risk. Combination significantly increases risk of major hemorrhage; monitor INR and signs of bleeding."
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "report_metadata": {
+        "timestamp": "2026-05-15T18:19:30.904707",
+        "patient_age": 60,
+        "gender": "F",
+        "weight_kg": 75.0,
+        "serum_creatinine_mgdl": 1.5,
+        "hba1c_percent": "HbA1c was not given",
+        "estimated_crcl_mlmin": 47.22
+    },
+    "renal_alerts": [],
+    "regimen_profiles": [
+        {
+            "generic": "lisinopril",
+            "classification": [
+                "UNCLASSIFIED"
+            ],
+            "pgx_markers": [
+                "RECEPTOR"
+            ],
+            "predictive_alerts": [],
+            "clinical_highlights": "No critical cautions detected in this section.",
+            "full_safety_data": "No group-specific safety warnings identified.",
+            "source": "None",
+            "roa": [
+                "IV",
+                "Oral",
+                "SubQ"
+            ]
+        },
+        {
+            "generic": "spironolactone",
+            "classification": [
+                "RENAL"
+            ],
+            "pgx_markers": [
+                "RECEPTOR"
+            ],
+            "predictive_alerts": [],
+            "clinical_highlights": "No critical cautions detected in this section.",
+            "full_safety_data": "No group-specific safety warnings identified.",
+            "source": "None",
+            "roa": [
+                "IV",
+                "Oral"
+            ]
+        }
+    ],
+    "clinical_interactions": [
+        {
+            "drugs": "LISINOPRIL & SPIRONOLACTONE",
+            "severity": "CRITICAL",
+            "description": "[GERI/RENAL] Synergistic Hyperkalemia Risk: Monitor serum potassium closely. Extreme caution if eGFR <60 mL/min."
+        }
+    ]
+}

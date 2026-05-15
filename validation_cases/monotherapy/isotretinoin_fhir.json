@@ -1,0 +1,38 @@
+{
+    "report_metadata": {
+        "timestamp": "2026-05-15T18:26:31.757851",
+        "patient_age": 39,
+        "gender": "F",
+        "weight_kg": 60.0,
+        "serum_creatinine_mgdl": 0.9,
+        "hba1c_percent": "HbA1c was not given",
+        "estimated_crcl_mlmin": 79.49
+    },
+    "renal_alerts": [],
+    "regimen_profiles": [
+        {
+            "generic": "isotretinoin",
+            "classification": [
+                "TERATOGENIC"
+            ],
+            "pgx_markers": [
+                "CATEGORY X",
+                "TERATOGEN"
+            ],
+            "predictive_alerts": [
+                "[CLINICAL INTERCEPT] High risk of severe birth defects. Requires iPLEDGE registration; contraindicated in pregnancy.",
+                "[FDA ALERT] CONTRAINDICATIONS AND WARNINGS Isotretinoin capsules must not be used by patients who are or may become pregnant",
+                "[FDA ALERT] There is an extremely high risk that life-threatening birth defects will result if pregnancy occurs while taking isotretinoin capsules in any amount, even for short periods of time",
+                "[FDA ALERT] If pregnancy does occur during treatment of a patient who is taking isotretinoin capsules, isotretinoin capsules must be discontinued immediately and the patient should be referred to an Obstetrician-Gynecologist experienced in reproductive toxicity for further evaluation and counseling."
+            ],
+            "clinical_highlights": "CONTRAINDICATIONS AND WARNINGS Isotretinoin capsules must not be used by patients who are or may become pregnant. There is an extremely high risk that life-threatening birth defects will result if pregnancy occurs while taking isotretinoin capsules in any amount, even for short periods of time. If pregnancy does occur during treatment of a patient who is taking isotretinoin capsules, isotretinoin capsules must be discontinued immediately and the patient should be referred to an Obstetrician-Gynecologist experienced in reproductive toxicity for further evaluation and counseling.",
+            "full_safety_data": "CONTRAINDICATIONS AND WARNINGS Isotretinoin capsules must not be used by patients who are or may become pregnant. There is an extremely high risk that life-threatening birth defects will result if pregnancy occurs while taking isotretinoin capsules in any amount, even for short periods of time. Potentially any fetus exposed during pregnancy can be affected. There are no accurate means of determining whether an exposed fetus has been affected. Birth defects which have been documented following isotretinoin capsules exposure include abnormalities of the face, eyes, ears, skull, central nervous system, cardiovascular system, and thymus and parathyroid glands. Cases of IQ scores less than 85 with or without other abnormalities have been reported. There is an increased risk of spontaneous abortion, and premature births have been reported. Documented external abnormalities include: skull abnormality; ear abnormalities (including anotia, micropinna, small or absent external auditory canals); eye abnormalities (including microphthalmia); facial dysmorphia; cleft palate. Documented internal abnormalities include: CNS abnormalities (including cerebral abnormalities, cerebellar malformation, hydrocephalus, microcephaly, cranial nerve deficit); cardiovascular abnormalities; thymus gland abnormality; parathyroid hormone deficiency. In some cases death has occurred with certain of the abnormalities previously noted. If pregnancy does occur during treatment of a patient who is taking isotretinoin capsules, isotretinoin capsules must be discontinued immediately and the patient should be referred to an Obstetrician-Gynecologist experienced in reproductive toxicity for further evaluation and counseling. Special Prescribing Requirements Because of isotretinoin teratogenicity and to minimize fetal exposure, isotretinoin capsules approved for marketing only under a special restricted distribution program approved by the Food and Drug Administration. This REMS is called iPLEDGE \u00ae . Isotretinoin capsules must only be prescribed by prescribers who are enrolled and activated with the iPLEDGE REMS. Isotretinoin capsule s must only be dispensed by a pharmacy enrolled and activated with iPLEDGE, and must only be dispensed to patients who are enrolled and meet all the requirements of iPLEDGE (see PRECAUTIONS ).",
+            "source": "boxed_warning",
+            "roa": [
+                "Transdermal",
+                "Oral"
+            ]
+        }
+    ],
+    "clinical_interactions": []
+}

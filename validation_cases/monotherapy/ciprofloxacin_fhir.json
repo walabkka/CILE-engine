@@ -1,0 +1,34 @@
+{
+    "report_metadata": {
+        "timestamp": "2026-05-15T18:28:14.674595",
+        "patient_age": 57,
+        "gender": "F",
+        "weight_kg": 70.0,
+        "serum_creatinine_mgdl": 1.0,
+        "hba1c_percent": "HbA1c was not given",
+        "estimated_crcl_mlmin": 68.59
+    },
+    "renal_alerts": [],
+    "regimen_profiles": [
+        {
+            "generic": "ciprofloxacin",
+            "classification": [
+                "SAFETY"
+            ],
+            "pgx_markers": [
+                "None identified"
+            ],
+            "predictive_alerts": [
+                "[CLINICAL INTERCEPT] Boxed warning for tendon rupture, peripheral neuropathy, and CNS effects; avoid in patients with Myasthenia Gravis."
+            ],
+            "clinical_highlights": "No critical cautions detected in this section.",
+            "full_safety_data": "No group-specific safety warnings identified.",
+            "source": "None",
+            "roa": [
+                "IV",
+                "Oral"
+            ]
+        }
+    ],
+    "clinical_interactions": []
+}

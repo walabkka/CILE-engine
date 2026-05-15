@@ -1,0 +1,136 @@
+{
+    "report_metadata": {
+        "timestamp": "2026-05-15T18:21:29.417978",
+        "patient_age": 78,
+        "gender": "F",
+        "weight_kg": "weight was not given",
+        "serum_creatinine_mgdl": "SrCr was not given",
+        "hba1c_percent": "HbA1c was not given",
+        "estimated_crcl_mlmin": "CrCl could not be calculated"
+    },
+    "renal_alerts": [],
+    "regimen_profiles": [
+        {
+            "generic": "metformin",
+            "classification": [
+                "RENAL"
+            ],
+            "pgx_markers": [
+                "CYP2C9",
+                "CYP3A4",
+                "CYP2C8"
+            ],
+            "predictive_alerts": [
+                "[CLINICAL INTERCEPT] Monitor eGFR; contraindicated if eGFR <30 mL/min due to risk of lactic acidosis; do not initiate if eGFR 30-45.",
+                "[!] CRITICAL: Renal-based dose adjustments were skipped due to missing vitals.",
+                "[FDA ALERT] 8.5 Geriatric Use ZITUVIMET In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy and the higher risk of lactic acidosis",
+                "[FDA ALERT] Renal function should be assessed more frequently in elderly patients."
+            ],
+            "clinical_highlights": "8.5 Geriatric Use ZITUVIMET In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy and the higher risk of lactic acidosis. Renal function should be assessed more frequently in elderly patients.",
+            "full_safety_data": "8.5 Geriatric Use ZITUVIMET In general, dose selection for an elderly patient should be cautious, usually starting at the low end of the dosing range, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy and the higher risk of lactic acidosis. Renal function should be assessed more frequently in elderly patients. [See Contraindications ( 4 ); Warnings and Precautions ( 5.1 , 5.4 ) and Clinical Pharmacology ( 12.3 ).] Sitagliptin Of the total number of subjects (N=3,884) in clinical studies of sitagliptin, 725 patients were 65 years and over, while 61 patients were 75 years and over. No overall differences in safety or effectiveness of sitagliptin have been observed between subjects 65 years and over and younger patients. Metformin Controlled clinical studies of metformin did not include sufficient numbers of elderly patients to determine whether they respond differently from younger patients, although other reported clinical experience has not identified differences in responses between the elderly and young patients.",
+            "source": "geriatric_use",
+            "roa": [
+                "IV",
+                "Oral",
+                "SubQ"
+            ]
+        },
+        {
+            "generic": "aspirin",
+            "classification": [
+                "UNCLASSIFIED"
+            ],
+            "pgx_markers": [
+                "None identified"
+            ],
+            "predictive_alerts": [
+                "[DEPRESCRIBE]: Per STOPP & CaDeN guidelines, avoid Aspirin for PRIMARY prevention in age > 70.",
+                "[!] CRITICAL: Renal-based dose adjustments were skipped due to missing vitals."
+            ],
+            "clinical_highlights": "No critical cautions detected in this section.",
+            "full_safety_data": "No group-specific safety warnings identified.",
+            "source": "None",
+            "roa": [
+                "IV",
+                "Oral"
+            ],
+            "intervention": "p"
+        },
+        {
+            "generic": "simvastatin",
+            "classification": [
+                "BEERS",
+                "RENAL"
+            ],
+            "pgx_markers": [
+                "CYP3A4",
+                "RECEPTOR"
+            ],
+            "predictive_alerts": [
+                "[CLINICAL INTERCEPT] Avoid doses >20mg in severe renal impairment (CrCl <30 mL/min). Advanced age (>=65) increases risk of rhabdomyolysis.",
+                "[CLINICAL NOTE]: Statin for SECONDARY prevention (Post-MI/Stroke) should be continued regardless of age if benefits outweighs the risks UNLESS terminal.",
+                "[!] CRITICAL: Renal-based dose adjustments were skipped due to missing vitals."
+            ],
+            "clinical_highlights": "No critical cautions detected in this section.",
+            "full_safety_data": "8.5 Geriatric Use Of the total number of simvastatin-treated patients in clinical studies 1,021 (23%) patients, 5,366 (52%) patients, and 363 (15%) patients were \u226565 years old, respectively. In Study HPS, 615 (6%) patients were \u226575 years old [see CLINICAL STUDIES ( 14 )] . In a clinical study of patients treated with simvastatin 80 mg daily, patients \u226565 years of age had an increased risk of myopathy, including rhabdomyolysis, compared to patients <65 years of age. A pharmacokinetic study with simvastatin use showed the mean plasma level of total inhibitors to be approximately 45% higher in geriatric patients between 70-78 years of age compared with patients between 18-30 years of age [see CLINICAL PHARMACOLOGY ( 12.3 )] .",
+            "source": "geriatric_use",
+            "roa": [
+                "Oral",
+                "SubQ"
+            ]
+        },
+        {
+            "generic": "itraconazole",
+            "classification": [
+                "HEPATIC",
+                "CARDIAC"
+            ],
+            "pgx_markers": [
+                "RECEPTOR",
+                "CYP3A4",
+                "METABOLIZER",
+                "CYP2D6"
+            ],
+            "predictive_alerts": [
+                "[CLINICAL INTERCEPT] Potent CYP3A4 inhibitor. Potential for serious hepatotoxicity. Use with caution in patients with history of CHF.",
+                "[!] CRITICAL: Renal-based dose adjustments were skipped due to missing vitals.",
+                "[FDA ALERT] In general, it is recommended that the dose selection for an elderly patient should be taken into consideration, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy",
+                "[FDA ALERT] Several of these reports included concurrent administration of quinidine which is contraindicated ."
+            ],
+            "clinical_highlights": "In general, it is recommended that the dose selection for an elderly patient should be taken into consideration, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy. Several of these reports included concurrent administration of quinidine which is contraindicated .",
+            "full_safety_data": "Geriatric Use: Clinical studies of itraconazole capsules did not include sufficient numbers of subjects aged 65 years and over to determine whether they respond differently from younger subjects. It is advised to use itraconazole capsules in these patients only if it is determined that the potential benefit outweighs the potential risks. In general, it is recommended that the dose selection for an elderly patient should be taken into consideration, reflecting the greater frequency of decreased hepatic, renal, or cardiac function, and of concomitant disease or other drug therapy. Transient or permanent hearing loss has been reported in elderly patients receiving treatment with itraconazole. Several of these reports included concurrent administration of quinidine which is contraindicated (See BOXED WARNING: Drug Interactions, CONTRAINDICATIONS: Drug Interactions and PRECAUTIONS: Drug Interactions).",
+            "source": "geriatric_use",
+            "roa": [
+                "IV",
+                "Oral",
+                "SubQ"
+            ]
+        },
+        {
+            "generic": "gliclazide",
+            "classification": [
+                "UNCLASSIFIED"
+            ],
+            "pgx_markers": [
+                "N/A"
+            ],
+            "predictive_alerts": [
+                "[!] CRITICAL: Renal-based dose adjustments were skipped due to missing vitals."
+            ],
+            "clinical_highlights": "N/A",
+            "full_safety_data": "No applicable FDA safety labels found.",
+            "source": "N/A",
+            "roa": [
+                "Unspecified"
+            ],
+            "intervention": "p"
+        }
+    ],
+    "clinical_interactions": [
+        {
+            "drugs": "SIMVASTATIN & ITRACONAZOLE",
+            "severity": "CRITICAL",
+            "description": "[CONTRAINDICATED] CYP3A4 Inhibition: massive increase in simvastatin AUC. Risk of fatal rhabdomyolysis and acute renal failure."
+        }
+    ]
+}
