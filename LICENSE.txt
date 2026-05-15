@@ -1,0 +1,43 @@
+Specialized License
+
+Copyright (c) 2026 Waleed Mohammed Alabkka. All Rights Reserved.
+
+1. GRANT OF LICENSE
+Permission is hereby granted for educational and evaluation purposes only.
+Redistribution, commercial use, or deployment of this software within a clinical
+or production environment is strictly prohibited without explicit written permission
+from the author. This software is a clinical informatics tool.
+
+2. ARCHITECTURAL RESTRICTIONS & PROPRIETARY LOGIC
+This software represents the decoupled client interface (Frontend) of
+the Clinical Informatics Logic Engine (CILE). The core clinical matrices, deterministic
+logic, and routing architecture (Backend) remain strictly proprietary.
+
+Users are explicitly prohibited from:
+- Attempting to reverse-engineer, clone, or bypass the API endpoints to access
+the infrastructure.
+- Utilizing the software, its telemetry, or its API for commercial monetization or
+institutional data scraping.
+
+3. CLINICAL DEPLOYMENT PROHIBITION
+Redistribution or deployment of this software within a live clinical, personal,
+or production environment uses are strictly prohibited. To maintain the integrity of
+the clinical logic, users wishing to integrate, scale, or build upon CILE must
+propose a formal reach out on either
+LinkedIn: <<linkedin.com/in/walabkka>> or reach out via email <<walabkka@duck.com>>.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the software.
+
+4. CLINICAL DISCLAIMER
+CLINICAL DISCLAIMER: THIS SOFTWARE IS FOR INFORMATICS EVALUATION AND EDUCATIONAL PURPOSES ONLY. 
+IT IS NOT A MEDICAL DEVICE AND DOES NOT PROVIDE MEDICAL ADVICE. CLINICAL DECISIONS SHOULD BE MADE 
+BY QUALIFIED HEALTHCARE PROFESSIONALS BASED ON PRIMARY CLINICAL LITERATURE AND PATIENT-SPECIFIC FACTORS.
+
+5. LIMITATION OF LIABILITY
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
