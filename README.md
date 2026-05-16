@@ -19,11 +19,3 @@ CILE is a deterministic clinical decision support (CDS) tool for real-time safet
   * **RxNav Interaction API (NLM):** It gets interactions between drug products.
   * **RxClass (NLM):** Used for therapeutic class mapping.
 * **Evaluation Framework:** **STARE-HI** *(Statement on Reporting of Evaluation Studies in Health Informatics)*
-
-## Deployment Workflow
-The core calculation engine and clinical intercepts are on a private backend. Contact CILE's builder for more. Otherwise to run CILE locally:
-1) Clone this repository:
-   ```bash
-   git clone https://github.com/walabkka/CILE-engine.git
-   cd CILE-engine
-2) pip install -r requirements.txt
