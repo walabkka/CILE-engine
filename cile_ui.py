@@ -110,8 +110,7 @@ def generate_clinical_pdf(report):
     pdf.set_font("helvetica", "I", 8)
     pdf.set_text_color(128, 128, 128)
     disclaimer = (
-        "CILE v1.0.0 is a deterministic clinical decision support tool and does not supersede professional clinical judgment."
-        "If you have any concerns about the results or believe there shall be an update, contact CILE's Builder."
+        "CILE v1.0.0 is a deterministic clinical decision support tool and does not supersede professional clinical judgment. If you have any concerns about the results or believe there shall be an update, contact CILE's Builder."
     )
     pdf.multi_cell(0, 4, text=pdf_safe(disclaimer), align="C")
             
